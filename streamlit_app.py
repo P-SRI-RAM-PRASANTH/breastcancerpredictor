@@ -43,7 +43,7 @@ def main():
           
           #Creating Examine for Prediction
          if st.button('BreasrcancerTestResult'):
-              daignosis=Breast_cancer_prediction([mean_radius, mean_texture,mean_perimeter,mean_area,mean_smoothness])
+              daignosis=Breast_cancer_prediction([mean_radius,mean_texture,mean_perimeter,mean_area,mean_smoothness])
               
          st.success(daignosis)
           
