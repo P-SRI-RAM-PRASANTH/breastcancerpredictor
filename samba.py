@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 #loading saved model
-loaded_model=pickle.load(open("C:Users\ppras\Downloads\Breast_cancer_data.sav",'rb'))
+loaded_model=pickle.load(open("Breast_cancer_data.sav",'rb'))
 #creating function for prediction
 def Breast_cancer_pedicition(input_data):
 
